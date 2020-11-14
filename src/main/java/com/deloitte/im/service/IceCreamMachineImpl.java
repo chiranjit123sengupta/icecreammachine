@@ -31,6 +31,7 @@ public class IceCreamMachineImpl implements IceCreamMachine {
 
     /**
      * @param coins list of coins
+     * insert coin and get ice cream and change
      */
     public ProductDetail insertCoinAndGetProductDetails(List<Coin> coins) {
         ProductDetail productDetail = new ProductDetail();
